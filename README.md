@@ -3,7 +3,7 @@
 Welcome to my Deep RL Breakout project! This repository contains code for training an agent to play Atari Breakout using Deep Q-Networks (DQN) with the help of the [rl-baselines3-zoo](https://github.com/DLR-RM/rl-baselines3-zoo) library.
 
 ---
-
+![Breakout](Breakoutvideoreplay-ezgif.com-video-to-gif-converter.gif)
 ## Overview
 
 Traditional Q-learning uses a Q-table, which is impractical for environments with huge state spaces. For example, a 210×110 pixel image with 3 RGB channels leads to roughly 256^(210×110×3) possible states—way too many! Instead, we leverage deep neural networks to approximate the Q-values directly from pixel inputs, making the problem manageable.
